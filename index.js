@@ -23,7 +23,7 @@ sub.onclick = function(){
         record += result.textContent + "<br>";    
     }else{
         result.textContent = `Incorrect!!!The Value you Guessed(${userGuess}) is smaller than the actual value.`;
-        result.style.color = "red";
+        result.style.color = "#c1121f";
         record += result.textContent + "<br>";
     }
     history.innerHTML = record;
